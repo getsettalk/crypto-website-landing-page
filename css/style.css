@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height:100vh;
+    background: #42455a;
+}
+.container .menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.container .menu ul li{
+   list-style: none;
+   margin: 0 20px;
+   color: #b2b1b1;
+   cursor: pointer;
+} 
+.container .menu ul  .logo img{
+  width: 69px;
+  margin-top: -7px;
+  margin-right: 48px;
+} 
+.container .menu ul li a{
+    text-decoration: none;
+   color: #d9d4d4;
+} 
+.active{
+    color: #19dafa !important;
+}
+ .register-btn{
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    color: #ffff !important;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42466a),radial-gradient(circle at top left ,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    transition: all 0.3s ease-in-out;
+} 
+.register-btn:hover{
+    text-transform: capitalize;
+    background-image: linear-gradient(#fd00da,#19d7f8);
+}
+.register-btn span{
+    display: block;
+    padding: 8px 20px;
+}
+
+.container .banner {
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: #fff;
+}
+.container .banner .header-text{
+    width: 50%;
+    float: left;
+}
+.container .banner .header-text h1{
+    font-size: 43px;
+    width: 600px;
+    position: relative;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.container .banner .header-text p{
+  
+    width: 650px;
+    font-size: 15px;
+    position: relative;
+   margin: 30px 0 30px 10px;
+   line-height: 25px;
+   color: #919191;
+}
+
+.container .banner .header-img{
+    width:50%;
+    float: right;
+}
+.container .banner .header-img img{
+    width: 100%;
+    margin-top: -20px;
+}
+.container .banner .play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+.container .banner .play-btn .play-btn-inner{
+width: 50px;
+height: 50px; 
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+border: 2px solid transparent;
+border-radius: 50%;
+background-image: linear-gradient(#42455a,#42466a),radial-gradient(circle at top left ,#fd00da,#19d7f8);
+background-origin: border-box;
+background-clip: content-box,border-box;
+text-align: center;
+}
+.container .banner .play-btn .play-btn-inner span{
+    padding: 18px 0;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.container .banner .play-btn  small{
+    margin: auto 20px;
+    font-size :12px;
+    cursor: pointer;
+    color:#19dafa ;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.container .quick-links{
+    left: 0;
+    bottom: 0%;
+    position: absolute;
+    border-radius: 0 15px 0px 0px;
+    background-image: linear-gradient(to  right,#db1bf6,#19d7f8);
+}
+ .container .quick-links ul {
+        display: inline-flex;
+        margin: 10px auto;
+        text-align: center;
+    }
+ .container .quick-links ul li{
+       list-style: none;
+        margin: 0 50px;
+        cursor: pointer;
+ }
+ .container .quick-links ul li a{
+     text-decoration: none;
+ }
+ .container .quick-links ul li a .span{
+     font-size: 25px;
+     color: #fff !important;
+ }
+ .container .quick-links ul li a p{
+     margin-top: 15px;
+     font-size: 10px;
+     color: aliceblue;
+ }
+
+ .container .social-icons{
+     right: 72px;
+     bottom: 35px;
+     position: absolute;
+ }
+
+ 
+ .container .social-icons ul li{
+     list-style: none;
+     margin-top:  15px;
+     text-align: center;
+ }
+ .container .social-icons ul li a{
+    color: #999;
+    border-radius :50%;
+    border: 1px solid #999;
+    padding: 5px;
+    display: block;
+ }
